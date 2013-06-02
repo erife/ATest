@@ -1,0 +1,30 @@
+body {
+    background-size: 100% auto;
+    background-image:url('../images/background3.jpg');
+}
+
+.blue {
+     background-color: #AEE7FC;
+    border: 30px #040D3E solid;
+    margin-left: 10%;
+    margin-top: 10%;
+    outline: 1px #438FF9 solid;
+}
+
+.set1 > p, .set1 > img{
+    position: absolute;
+    float: left;
+    width: 35%;
+    height: 200px;
+
+}
+
+.set1 > p{
+    top:5%;
+}
+
+
+.set1 > img{
+    transform: rotate(-7deg);
+    left: 39%;
+}
