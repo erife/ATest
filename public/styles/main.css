@@ -1,6 +1,7 @@
 body {
     background-size: 100% auto;
     background-image:url('../images/background3.jpg');
+    background-attachment: fixed;
 }
 
 .blue {
@@ -11,20 +12,40 @@ body {
     outline: 1px #438FF9 solid;
 }
 
+li{
+    position: static;
+    height: 400px;
+}
+
+
 .set1 > p, .set1 > img{
-    position: absolute;
+    position: relative;
     float: left;
     width: 35%;
     height: 200px;
-
 }
-
 .set1 > p{
-    top:5%;
+    top: 8%;
 }
-
 
 .set1 > img{
     transform: rotate(-7deg);
-    left: 39%;
+    left: -10%;
 }
+
+
+.set2 > p, .set2 > img{
+    position: relative;
+    float: left;
+    width: 35%;
+    height: 200px;
+}
+.set2 > p{
+    left: -10%;
+    top: 8%;
+}
+
+
+.set2 > img{
+    transform: rotate(7deg);
+ }
