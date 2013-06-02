@@ -2,19 +2,37 @@ body {
     background-size: 100% auto;
     background-image:url('../images/background3.jpg');
     background-attachment: fixed;
+    font-size: 25px;
 }
 
 .blue {
-     background-color: #AEE7FC;
+    line-height: 30px;
+    background-color: #AEE7FC;
     border: 30px #040D3E solid;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
     outline: 1px #438FF9 solid;
+}
+
+.purple {
+    background-color: #FFA3FD;
+    border: 30px #5A0A48  solid;
+    margin-left: 10%;
+    margin-top: 5%;
+    outline: 1px #DC22C0 solid;
+}
+
+.gold {
+    background-color: #FCFC90;
+    border: 30px #FFCA4D solid;
+    margin-left: 10%;
+    margin-top: 5%;
+    outline: 1px #FDFB4C solid;
 }
 
 li{
     position: static;
-    height: 400px;
+    height: 350px;
 }
 
 
